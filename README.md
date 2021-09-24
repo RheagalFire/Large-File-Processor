@@ -19,12 +19,12 @@ This Table is the Table from the CSV file containing 500000 rows.
 - updated_table <br><br>
 ![img_2](/images/updated_table.png)
 
-This Table is grouped by sku and contains 'sku' as the primary key, This is made for carrying out updates.
+This Table is grouped by sku and contains 'sku' as the primary key, This is made for carrying out updates. No. of Rows = 466693
 
 - agg_table <br><br>
 ![img_3](/images/agg_table.png)
 
-This Table is groued by same name and count as the column where count denotes no. of products related to each name. 
+This Table is groued by same name and count as the column where count denotes no. of products related to each name. No. of Rows = 222024
 
 
 
