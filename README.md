@@ -10,6 +10,10 @@ Large File Processing for Postman Assignment
 - conatainer Id can be obtained using `docker ps` command. 
 - Inside the conatiner's terminal run `python3 create_update.py`
 
+```
+If you have a POSTGRES Server setup you can also create the tables just by changing the URI in .env file with your DB_URI. 
+```
+
 ### Tables
 The Above Steps will start a Postgres Server with three Tables as follows: 
 - product_list table <br><br>
