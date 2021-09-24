@@ -32,7 +32,7 @@ This Table is grouped by sku and contains 'sku' as the primary key, This is made
 This Table is groued by same name and count as the column where count denotes no. of products related to each name. No. of Rows = 222024
 
 ### How to update the Database 
-- To update the Database inside the container run update.py file with arguments in order of :`python3 update.py sku name description`.<br><br>
+- To update the Database inside the container run update.py file with arguments in order of :`python3 update_table.py sku name description`.<br><br>
 ![img_3](/images/update_query.png)
 
 After the Update changes will be reflected in all the Tables. 
