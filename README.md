@@ -6,7 +6,7 @@ Large File Processing for Postman Assignment
 - cd `Postman-Assignment`
 - open terminal and build docker image using command `docker build -t "image_name" .`
 - Run the docker image using comman `docker run "image_name"`
-- SSH into a Docker container using `docker exec -it "container_id" bash`
+- SSH into a Docker container using `winpty docker exec -it "container_id" bash`
 - conatainer Id can be obtained using `docker ps` command. 
 - Inside the conatiner's terminal run `python3 create_update.py`
 
