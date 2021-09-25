@@ -14,7 +14,7 @@ class update_table():
         Update existing records based on the 'sku' key
         '''
         update_query="UPDATE updated_table SET name_list=array_append(name_list,"+"'"+name+"'"+"),description_list=array_append(description_list,"+"'"+description+"'"+")Where sku="+"'"+sku+"';"
-        # Fetch existing Value
+        # execute all queries
         self.engine.execute(text
                (update_query
                 ))
