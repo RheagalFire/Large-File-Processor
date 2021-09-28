@@ -50,23 +50,6 @@ After the Update changes will be reflected in all the Tables.
 - To query the updated_table run `SELECT * FROM updated_table;`
 - To query the agg_table run `SELECT * FROM agg_table;`
 
-### What all is done from POINTS TO ACHIEVE 
-- According to my assumptions from reading the problem statement none of the points has been left out from points to achieve. 
-- All the Code follow the concept of OOPS. 
-- Support for non blocking parallel ingestion of file into table.
-- Support for updating the database with `sku` as the primary key. 
-- All the product details are ingested into single table called `product_list`.
-- An aggregated table is made with `name` and `no. of products` as columns. 
-
-### What would I do if Given more days 
-- Come up with a better design patter to solve the problem. 
-- Properly Document the Whole code.
-- Make an API to update the Above tables. 
-
-### Assumptions Made
-- The Database is updated with one record at a time. 
-- It is necessary to ingest the given `csv` file(in its as is state) into a table. 
-- All the Modifications are handled with `SQL queries` and not with `pandas`.
 
 
 
