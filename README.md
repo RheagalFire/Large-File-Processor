@@ -3,7 +3,7 @@ Large File Processing for Postman Assignment
 
 ### STEPS to RUN THE Code
 - git clone `https://github.com/RheagalFire/Postman-Assignment.git`
-- cd `Postman-Assignment`
+- cd `Large-File-Processor`
 - open terminal and build docker image using command `docker build -t "image_name" .`
 - Run the docker image using comman `docker run "image_name"`
 - SSH into a Docker container using `winpty docker exec -it "container_id" bash`
