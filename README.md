@@ -1,5 +1,5 @@
 ## Large File Processor 
-Large File Processing for Postman Assignment
+Large File Processing System
 
 ### STEPS to RUN THE Code
 - git clone `https://github.com/RheagalFire/Postman-Assignment.git`
